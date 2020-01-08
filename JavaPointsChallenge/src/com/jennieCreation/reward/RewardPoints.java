@@ -13,7 +13,7 @@ public class RewardPoints {
          
          public CustReward(String name) {
                  this.name = name;
-                 this.rewards = new int[13]; // index 0 is dummy
+                 this.rewards = new int[13]; 
          }
          
          void addReward(int month, int reward) {
@@ -43,7 +43,6 @@ public class RewardPoints {
 
  public static void main(String[] args) {
          
-         // Lets say, dataset is stored in file: rewards.txt
          String fileName = "rewards.txt";
          
          HashMap<String, CustReward> customerRewards = new HashMap<>();
