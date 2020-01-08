@@ -38,7 +38,7 @@ public class RewardPoints {
          if(txnAmount <= 100) {
                  return txnAmount - 50;
          }
-         return txnAmount +2 * (txnAmount-125);
+         return txnAmount + 2 * (txnAmount-125);
  }
 
  public static void main(String[] args) {
